@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+@layer utilities{
+    header .fa-bars{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    right: -15px;
+    top: 42px;
+    }
+    .navigation{
+        position: absolute;
+        left: 0%;
+        transition: 1s ease-in-out;
+    }
+    header .fa-x{
+        transform: translate(-50%, -50%);
+    position: absolute;
+    right: -25px;
+    top: 55px;
+    opacity: 0;
+    }
+}
