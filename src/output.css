@@ -571,20 +571,8 @@ video {
   margin-right: auto;
 }
 
-.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
 }
 
 .h-\[10vh\] {
@@ -607,24 +595,16 @@ video {
   width: 200px;
 }
 
+.w-\[500px\] {
+  width: 500px;
+}
+
 .w-\[50px\] {
   width: 50px;
 }
 
-.w-\[8\] {
-  width: 8;
-}
-
-.w-\[80\] {
-  width: 80;
-}
-
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[500px\] {
-  width: 500px;
+.w-\[350px\] {
+  width: 350px;
 }
 
 .max-w-\[450px\] {
@@ -667,12 +647,12 @@ video {
   gap: 40px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-full {
@@ -683,20 +663,16 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
+.border-2 {
+  border-width: 2px;
 }
 
-.border {
-  border-width: 1px;
+.border-\[4px\] {
+  border-width: 4px;
 }
 
 .border-\[5px\] {
   border-width: 5px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-solid {
@@ -728,9 +704,9 @@ video {
   background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-900 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(20 83 45 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-yellow-500 {
@@ -738,14 +714,13 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .p-\[15px\] {
@@ -756,25 +731,22 @@ video {
   padding: 20px;
 }
 
-.p-\[40px\] {
-  padding: 40px;
-}
-
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[10px\] {
-  padding: 10px;
-}
-
 .p-\[30px\] {
   padding: 30px;
+}
+
+.p-\[40px\] {
+  padding: 40px;
 }
 
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .py-\[20px\] {
@@ -785,6 +757,10 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
 }
 
 .pb-\[40px\] {
@@ -803,10 +779,6 @@ video {
   padding-top: 30px;
 }
 
-.pb-\[20px\] {
-  padding-bottom: 20px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -816,14 +788,14 @@ video {
   line-height: 2rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -834,9 +806,28 @@ video {
   text-transform: uppercase;
 }
 
+.text-\[\#333\] {
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity, 1));
+}
+
+.text-\[1\.5xl\] {
+  color: 1.5xl;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
 .text-green-800 {
   --tw-text-opacity: 1;
   color: rgb(22 101 52 / var(--tw-text-opacity, 1));
+}
+
+.text-green-900 {
+  --tw-text-opacity: 1;
+  color: rgb(20 83 45 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -847,35 +838,6 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
-}
-
-.text-green-900 {
-  --tw-text-opacity: 1;
-  color: rgb(20 83 45 / var(--tw-text-opacity, 1));
-}
-
-.text-green-50 {
-  --tw-text-opacity: 1;
-  color: rgb(240 253 244 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-50 {
-  --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
-}
-
-.text-\[1\.5xl\] {
-  color: 1.5xl;
 }
 
 .opacity-0 {
@@ -949,6 +911,19 @@ svg{
   background-size: cover;
   background-position: center;
   background-color: green;
+}
+
+.services{
+  background-image: url("../images-agrobest/agrobest-cameroun\ \(17\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: rgb(4, 26, 4);
+  min-height: 100vh;
+}
+
+.image-services{
+  border-radius: 99px 0px 99px 0px;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
