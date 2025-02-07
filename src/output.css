@@ -566,12 +566,16 @@ video {
   left: -100%;
 }
 
-.right-\[20px\] {
-  right: 20px;
-}
-
 .flex {
   display: flex;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
 }
 
 .h-\[350px\] {
@@ -580,14 +584,6 @@ video {
 
 .h-\[50px\] {
   height: 50px;
-}
-
-.h-\[10vh\] {
-  height: 10vh;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
 }
 
 .w-\[200px\] {
@@ -640,9 +636,9 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
 }
 
-.bg-red-200 {
+.bg-green-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity, 1));
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
 }
 
 .px-\[10px\] {
@@ -660,24 +656,16 @@ video {
   padding-bottom: 5px;
 }
 
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+
 .pl-\[10px\] {
   padding-left: 10px;
 }
 
 .pl-\[20px\] {
   padding-left: 20px;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[2\] {
-  padding-bottom: 2;
-}
-
-.pb-\[40px\] {
-  padding-bottom: 40px;
 }
 
 .text-center {
@@ -770,6 +758,10 @@ svg{
 
 .circle-btn:hover .filled{
   stroke-dashoffset:0 ;
+}
+
+.hero-section{
+  background-image: url("");
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
