@@ -761,7 +761,11 @@ svg{
 }
 
 .hero-section{
-  background-image: url("");
+  background-image: url("../images-agrobest/agrobest-cameroun\ \(3\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: green;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
