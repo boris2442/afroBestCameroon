@@ -595,16 +595,16 @@ video {
   width: 200px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-\[500px\] {
   width: 500px;
 }
 
 .w-\[50px\] {
   width: 50px;
-}
-
-.w-\[350px\] {
-  width: 350px;
 }
 
 .max-w-\[450px\] {
@@ -918,12 +918,21 @@ svg{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  background-color: rgb(4, 26, 4);
+  /* background-color: rgb(4, 26, 4); */
   min-height: 100vh;
 }
 
 .image-services{
   border-radius: 99px 0px 99px 0px;
+}
+
+.produits{
+  background-image: url("../images-agrobest/agrobest-cameroun\ \(3\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: green;
+  min-height: 100vh;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */

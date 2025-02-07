@@ -82,10 +82,18 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
-        background-color: rgb(4, 26, 4);
+        /* background-color: rgb(4, 26, 4); */
         min-height: 100vh;
       }
       .image-services{
         border-radius: 99px 0px 99px 0px;
+      }
+      .produits{
+        background-image: url("../images-agrobest/agrobest-cameroun\ \(3\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: green;
+        min-height: 100vh;
       }
 }
