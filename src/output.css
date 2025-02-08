@@ -695,6 +695,10 @@ video {
   gap: 7px;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -739,6 +743,11 @@ video {
 .border-yellow-500 {
   --tw-border-opacity: 1;
   border-color: rgb(234 179 8 / var(--tw-border-opacity, 1));
+}
+
+.border-yellow-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(202 138 4 / var(--tw-border-opacity, 1));
 }
 
 .bg-black {
@@ -848,6 +857,10 @@ video {
 
 .pt-\[30px\] {
   padding-top: 30px;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
 }
 
 .text-center {
