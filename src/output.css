@@ -926,6 +926,11 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
 }
 
+.text-green-300 {
+  --tw-text-opacity: 1;
+  color: rgb(134 239 172 / var(--tw-text-opacity, 1));
+}
+
 .opacity-0 {
   opacity: 0;
 }
