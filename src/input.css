@@ -14,14 +14,15 @@
     right: -15px;
     top: 42px;
     }
-    .navigation{
+    /* .navigation{
         position: absolute;
-        left: 0%;
+        top: 10vh;
+        left: 30px;
         display: flex;
         gap:15px;
         flex-direction: column;
         transition: 1s ease-in-out;
-    }
+    } */
     header .fa-x{
         transform: translate(-50%, -50%);
     position: absolute;
