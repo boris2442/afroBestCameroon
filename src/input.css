@@ -5,6 +5,9 @@
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
 
 @layer utilities{
+  body{
+    overflow-x: hidden;
+  }
     header .fa-bars{
     transform: translate(-50%, -50%);
     position: absolute;
