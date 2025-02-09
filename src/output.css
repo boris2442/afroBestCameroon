@@ -1106,6 +1106,10 @@ footer{
     display: flex;
   }
 
+  .md\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
