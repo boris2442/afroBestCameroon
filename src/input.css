@@ -7,6 +7,7 @@
 @layer utilities {
   body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   /* header .fa-bars{
@@ -20,7 +21,32 @@
       display: flex;
       flex-direction: column;
       background-color: green;
+      height: 350px;
+      position: absolute;
+      top: 10vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+      left: -100%;
+      transition: .8s ease-in-out;
+      border-bottom-right-radius:70px;
 
+    }
+    .error{
+      display: flex;
+      flex-direction: column;
+      background-color: green;
+      height: 350px;
+      position: absolute;
+      top: 10vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+      left: 0%;
+      transition: .8s ease-in-out;
+      border-bottom-right-radius:70px;
     }
 
   }
@@ -125,6 +151,7 @@ svg {
 }
 
 footer {}
+
 
 }
 /* } */
