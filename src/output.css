@@ -651,6 +651,10 @@ video {
   width: ;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
 .min-w-\[250px\] {
   min-width: 250px;
 }
@@ -1141,6 +1145,10 @@ footer {
 
   .md\:justify-around {
     justify-content: space-around;
+  }
+
+  .md\:p-\[20px\] {
+    padding: 20px;
   }
 
   .md\:opacity-0 {
