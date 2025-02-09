@@ -13,16 +13,24 @@
     position: absolute;
     right: -15px;
     top: 42px;
-    }
-    /* .navigation{
+    @media screen and (min-width:800px){
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+    }}
+
+    .navigation{
         position: absolute;
         top: 10vh;
-        left: 30px;
-        display: flex;
+        left: 0px;
+        width: 200px;
         gap:15px;
+        height: 250px;
+        background-color: green;
         flex-direction: column;
         transition: 1s ease-in-out;
-    } */
+    }
     header .fa-x{
         transform: translate(-50%, -50%);
     position: absolute;
@@ -104,4 +112,5 @@
       footer{
         
       }
+      
 }
