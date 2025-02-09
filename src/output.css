@@ -1143,4 +1143,9 @@ footer{
   .lg\:gap-\[20px\] {
     gap: 20px;
   }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
