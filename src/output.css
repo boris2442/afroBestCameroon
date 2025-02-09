@@ -647,12 +647,12 @@ video {
   width: 90%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
 .w-\[95\%\] {
   width: 95%;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .min-w-\[250px\] {
@@ -988,7 +988,7 @@ body {
   .navigation-bar {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: rgb(3, 41, 3);
     height: 350px;
     position: absolute;
     top: 10vh;

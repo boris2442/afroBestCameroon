@@ -20,7 +20,7 @@
     .navigation-bar {
       display: flex;
       flex-direction: column;
-      background-color: green;
+      background-color: rgb(3, 41, 3);
       height: 350px;
       position: absolute;
       top: 10vh;
