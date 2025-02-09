@@ -19,4 +19,20 @@ window.addEventListener("scroll", ()=>{
 // })
 
 
-// const menu=document.querySelector(" header .fa-bars")
+// const menu=document.querySelector(" header .fa-bars");
+
+
+const sections=document.querySelectorAll("section");
+const links=document.querySelectorAll("header nav ul li a")
+const scrollActive=()=>{
+    sections.forEach(section=>{
+        let height=section.offsetHeight;
+        let top=section.offsetTop;
+        const scroll=window.scrollY;
+        let attribute=section.getAttribute("id");
+        if(top-200<scroll && scroll<top +height){
+            
+        }
+
+    })
+}

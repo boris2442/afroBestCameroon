@@ -151,7 +151,9 @@ svg {
 }
 
 footer {}
-
+.link{
+  background-color: #333;
+}
 
 }
 /* } */
