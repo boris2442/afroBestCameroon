@@ -20,7 +20,7 @@
 
     }}
 
-    .navbar{
+    /* .navbar{
         position: absolute;
         top: 10vh;
         left: 0px;
@@ -30,7 +30,7 @@
         background-color: green;
         flex-direction: column;
         transition: 1s ease-in-out;
-    }
+    } */
     header .fa-x{
         transform: translate(-50%, -50%);
     position: absolute;

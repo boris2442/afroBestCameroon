@@ -982,6 +982,18 @@ header .fa-bars{
   }
 }
 
+/* .navbar{
+        position: absolute;
+        top: 10vh;
+        left: 0px;
+        width: 200px;
+        gap:15px;
+        height: 250px;
+        background-color: green;
+        flex-direction: column;
+        transition: 1s ease-in-out;
+    } */
+
 .circle-btn{
   outline: none;
   background:none;
