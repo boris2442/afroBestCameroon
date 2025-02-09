@@ -3,7 +3,7 @@ console.log(menu)
 const navigation=document.querySelector("header ul");
 const removeIcone=document.querySelector("header .fa-x")
 menu.addEventListener("click", ()=>{
-    navigation.classList.add("navigation");
+    navigation.classList.add("navbar");
     console.log("text")
     // menu.style.display="none";
     // removeIcone.style.opacity="0";

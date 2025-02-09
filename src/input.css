@@ -17,10 +17,10 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      
+
     }}
 
-    .navigation{
+    .navbar{
         position: absolute;
         top: 10vh;
         left: 0px;
